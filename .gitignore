@@ -1,0 +1,10 @@
+.DS_Store
+.idea/
+Thumbs.db
+db.json
+*.log
+node_modules/
+doc/
+.deploy*/
+.travis/ssh_key
+.travis/ssh_key.pub

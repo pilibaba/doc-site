@@ -1,0 +1,38 @@
+# Hexo Configuration
+## Docs: http://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Pilibaba
+subtitle: Simplify eCommerce to China with your online store
+description: Pilibaba gateway is one-stop solution with RMB Payment,Shipping to China,Customs compliance and Chinese customer support.
+author: Pilibaba
+language: en
+timezone: UTC
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://api.pilibaba.com/doc
+root: /doc/
+public_dir: doc
+
+permalink: news/:year/:month/:day/:title/
+archive_dir: news
+code_dir: downloads/code
+new_post_name: :year-:month-:day-:title.md # File name of new posts
+post_asset_folder: true
+highlight:
+  enable: true
+  line_number: false
+per_page: 0
+
+# Extensions
+## Plugins: http://hexo.io/plugins/
+## Themes: http://hexo.io/themes/
+theme: easywechat
+
+## swiftype_key: URYXMYgtQuEhNHNY8d-F
+## google_analytics: UA-64156348-1
+github: pilibaba
+twitter: pilibaba
+weibo: pilibaba

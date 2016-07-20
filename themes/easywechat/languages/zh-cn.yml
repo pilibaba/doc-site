@@ -1,0 +1,39 @@
+menu:
+  home: 首页
+  docs: 文档
+  forum: 论坛
+  video: 视频
+  news: 动态
+  donate: 打赏
+
+index:
+  get_started: 开始使用
+
+page:
+  contents: 目录
+  back_to_top: 回到顶部
+  improve: 改进本文
+  prev: 上一页
+  next: 下一页
+  last_updated: 上次更新：%s
+  donate: 我要打赏支持
+
+sidebar:
+  doc:
+    HTTP API: HTTP API
+    V2.0.01: V2.0.01
+    V2.0.01(中文): V2.0.01(中文)
+    V1: V1
+    Languages Kit: Languages Kit
+    JAVA-Kit: JAVA-Kit
+    PHP-Kit: PHP-Kit
+    .NET-Kit: .NET-Kit
+    Plugins: Plugins
+    Prestashop: Prestashop
+    Shopware: Shopware
+    OpenCart: OpenCart
+    Joomla: Joomla
+    Magento: Magento
+    Shopify: Shopify
+    WooCommerce: WooCommerce
+    X-cart: X-cart

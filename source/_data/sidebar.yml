@@ -1,0 +1,24 @@
+doc:
+
+  HTTP API:
+    V2.0.01: pilipay-http-api-reference.html
+    V2.0.01(中文): pilipay-http-api-reference.zh_CN.html
+    V1: pilipay-http-api-reference-v1.html
+  Languages Kit:
+    JAVA-Kit: pilibaba-kit-for-java.html
+    PHP-Kit: pilipay-for-php.html
+    .NET-Kit: pilibaba-kit-for-dot-net.html
+  Plugins:
+    Prestashop: install-pilipay-in-prestashop.html
+    Shopware: pilibaba-kit-for-shopware.html
+    OpenCart: install-pilibaba-in-opencart.html
+    Joomla: pilibaba-kit-for-joomla.html
+    Magento: pilibaba-kit-for-magento.html
+    Shopify: install-pilipay-in-shopify.html
+    WooCommerce: install-pilipay-for-woocommerce.html
+    X-cart: install-pilibaba-in-x-cart.html
+
+
+
+
+

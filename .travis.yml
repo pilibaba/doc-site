@@ -1,0 +1,57 @@
+language: node_js
+
+node_js:
+  - "4"
+
+cache:
+  apt: true
+  directories:
+    - node_modules
+
+addons:
+  apt:
+    packages:
+      - graphicsmagick
+
+env:
+  - CXX=g++-4.8
+
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-4.8
+  ssh_known_hosts: github.com
+
+before_install:
+  # Set Git config
+  - git config --global user.name "overtrue"
+  - git config --global user.email "anzhengchao@gmail.com"
+  - git config --global push.default simple
+
+script:
+  # Clone the repository
+  - git clone https://${GH_TOKEN}@github.com/easywechat/easywechat.github.io.git .deploy_git -v
+  # Update docs.
+  - git --version
+  - git remote add -f docs https://${GH_TOKEN}@github.com/easywechat/docs.git
+  - git fetch docs
+  - git subtree add --prefix=source/en/docs docs/en --squash
+  - git subtree add --prefix=source/zh-cn/docs docs/zh-cn --squash
+  # Install dependencies
+  - npm install --no-optional
+  # - npm info hexo-renderer-marked
+
+after_script:
+  - hexo generate && gulp
+  - cp -r public/zh-cn/docs/* public/docs/
+  - cp -r public/* .deploy_git/
+  - cd .deploy_git
+  - git add -A
+  - git commit -am "Auto deploy from Travis-CI."
+  - git push --force
+
+branches:
+  only:
+    - master
