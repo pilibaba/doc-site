@@ -27,8 +27,6 @@ highlight:
 per_page: 0
 
 # Extensions
-## Plugins: http://hexo.io/plugins/
-## Themes: http://hexo.io/themes/
 theme: easywechat
 
 ## swiftype_key: URYXMYgtQuEhNHNY8d-F

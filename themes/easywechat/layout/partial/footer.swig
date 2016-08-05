@@ -8,7 +8,7 @@
             </div>
             <div id="footer-copyright">
                 &copy; {{ moment(Date.now()).year() }}
-                <a href="http://www.pilibaba.com/" target="_blank">{{ config.author }}</a>.
+                <a href="http://en.pilibaba.com/" target="_blank">{{ config.author }}</a>.
                 <br><br>
                 Documentation licensed under
                 <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.

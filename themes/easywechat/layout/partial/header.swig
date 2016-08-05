@@ -6,9 +6,9 @@
         <nav id="main-nav">
             <ul>
                 {{ header_menu('main-nav') }}
-                <li class="main-nav-item">
+                {# <li class="main-nav-item">
                     <a href="https://github.com/{{ config.github }}" class="main-nav-link">GitHub</a>
-                </li>
+                </li> #}
             </ul>
         </nav>
         {#<div id="lang-select-wrap">

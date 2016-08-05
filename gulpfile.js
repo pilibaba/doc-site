@@ -4,29 +4,23 @@ var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();
 var cssnano = require('cssnano');
 
-var dirs = {
-  public: 'public'
-};
-
-gulp.task('useref', function(){
+gulp.task('useref', function () {
   var assets = $.useref.assets({
-    searchPath: 'public'
+    searchPath: 'doc',
+    transformPath: function (filePath) {
+      return filePath.replace('/doc/doc/', '/doc/')
+    }
   });
 
-  return gulp.src('public/**/*.html')
+  return gulp.src('doc/*.html')
     .pipe(assets)
-    .pipe($.uniqueFiles())
     .pipe($.if('*.css', $.postcss([
       cssnano()
-     ])))
+    ])))
     .pipe($.if('*.js', $.uglify()))
-    .pipe($.rev())
     .pipe(assets.restore())
     .pipe($.useref())
-    .pipe($.revReplace({
-      prefix: '/'
-    }))
-    .pipe(gulp.dest('public'));
+    .pipe(gulp.dest('doc'));
 });
 
 gulp.task('default', ['useref']);
