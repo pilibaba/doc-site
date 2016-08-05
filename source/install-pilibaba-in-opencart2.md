@@ -1,6 +1,6 @@
 ##Enable Pilibaba Module in OpenCart back-office
 
-[Pre-installed in Opencart 2.2 and above](install-pilibaba-in-opencart.md)
+[Pre-installed in Opencart 2.2 and above](install-pilibaba-in-opencart.html)
 For Opencart 2.0 and 2.1, you can click [Here](http://www.opencart.com/index.php?route=extension/extension/info&token=4601e69c911d0f8af7bc17a08009d4e3&extension_id=27186) to download at marketplace.
 If you have any questions, please contact us at developer@pilibaba.com Thanks.
 

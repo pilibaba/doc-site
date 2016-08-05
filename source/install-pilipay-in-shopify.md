@@ -1,5 +1,5 @@
 # Install Pilibaba Payment Gateway In Shopify
-(English Version | [中文版](install-pilipay-in-shopify.zh_CN.md))
+(English Version | [中文版](install-pilipay-in-shopify.zh_CN.html))
 
 ## Step 1: Install The APP
 
@@ -47,7 +47,7 @@ A. Check the installed apps.
 
 GO TO: shopify admin -> apps -> installed apps (`https://***.myshopify.com/admin/apps`)
 
-Pilibaba will be displayed in "Installed apps": 
+Pilibaba will be displayed in "Installed apps":
 
 ![](http://api.pilibaba.com/doc/img/shopify-installed-apps.gif)
 
@@ -88,6 +88,3 @@ Download our logo:
 ## Contact Us
 
 If you have any questions please send us an email to:[developer@pilibaba.com](mailto:developer@pilibaba.com). Or Online chat via Skype:developer@pilibaba.com.
-
-
-

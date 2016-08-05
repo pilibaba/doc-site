@@ -1,17 +1,18 @@
-#Install Pilibaba Payment For WooCommerce
-##1.Dowload Plugin
+# Install Pilibaba Payment For WooCommerce
 
-Recommended: you can search `Pilibaba`, find and install it online. 
+## 1.Dowload Plugin
+
+Recommended: you can search `Pilibaba`, find and install it online.
 
 ![](http://api.pilibaba.com/doc/media/14496505868327/14498064847980.jpg)
 
-You can also [download it from wordpress.org](https://wordpress.org/plugins/pilibaba-payment-for-woocommerce/) 
+You can also [download it from wordpress.org](https://wordpress.org/plugins/pilibaba-payment-for-woocommerce/)
 
-If wordpress.org is not available to you, please dowload the latest plugin from here: 
+If wordpress.org is not available to you, please dowload the latest plugin from here:
 
 [![](http://api.pilibaba.com/doc/media/logos/woocommerce.png)](http://api.pilibaba.com/product/downloads/pilibaba-payment-for-woocommerce-latest.zip)
 
-##2.Install Plugin From Downloaded zip Package
+## 2.Install Plugin From Downloaded zip Package
 
 Note: this step is necessary only if you cannot install it online. The installation is as usual as other Wordpress's plugins:
 
@@ -35,12 +36,12 @@ Note: this step is necessary only if you cannot install it online. The installat
 
 ![](http://api.pilibaba.com/doc/media/14496505868327/14497128514820.jpg)
 
-##3.Admin Settings
+## 3.Admin Settings
 After installation, there're serveral configurations must be done. Please go to`WooCommerce` -> `Settings`page in the admin backend, goto `Checkout` tab, and open `Pilibaba Payment` section. Then fill and save the fields in the form following the instructions belove each field:
 
 ![](http://api.pilibaba.com/doc/media/14496505868327/14509371872419.jpg)
 
-##4.Managing Orders
+## 4.Managing Orders
 4.Managing Orders
 
 A. Check orders checked out via Pilibaba Payment
@@ -51,7 +52,7 @@ A. Check orders checked out via Pilibaba Payment
 
 ![](http://api.pilibaba.com/doc/media/14496505868327/14497136091333.jpg)
 
-2) When a customer has already paid, the order status would be Processing. Otherwise, the order status would be On Hold: 
+2) When a customer has already paid, the order status would be Processing. Otherwise, the order status would be On Hold:
 
 ![](http://api.pilibaba.com/doc/media/14496505868327/14497141243640.jpg)
 
@@ -59,17 +60,17 @@ A. Check orders checked out via Pilibaba Payment
 
 B. Ship out the parcel and update tracking number
 
-After the customer has paid, the shop owner should do like this: 1) Download the barcode, and print it. Then paste it on the parcel before shipping. 2) Ship the parcel out to one of [Pilibaba's warehouses](http://en.pilibaba.com/addressList), and update the tracking number in the Edit Order page: 
+After the customer has paid, the shop owner should do like this: 1) Download the barcode, and print it. Then paste it on the parcel before shipping. 2) Ship the parcel out to one of [Pilibaba's warehouses](http://en.pilibaba.com/addressList), and update the tracking number in the Edit Order page:
 
 ![](http://api.pilibaba.com/doc/media/14496505868327/14497457206929.jpg)
 
 Note: The barcode and tracking number are used to matching the parcel shipped to the warehouse. So if they were blank or incorrect, the parcel would NOT be distinguished out and would NOT be shipped to the customer.
 
-##5.An Example Order Paid Via Pilibaba Payment
+## 5.An Example Order Paid Via Pilibaba Payment
 
 1) Customer: Add a product to the cart
 
-A customer go to your shop, and click the ADD TO CART button below a product. 
+A customer go to your shop, and click the ADD TO CART button below a product.
 
 ![](http://api.pilibaba.com/doc/media/14496505868327/14497147284288.jpg)
 
@@ -77,17 +78,17 @@ A customer go to your shop, and click the ADD TO CART button below a product.
 
 The customer go to the cart page. There are two ways to checkout via Pilibaba Payment:
 
-One way, click the Pilibaba 支付 button right on the cart page: 
+One way, click the Pilibaba 支付 button right on the cart page:
 
 ![](http://api.pilibaba.com/doc/media/14496505868327/14497148700102.jpg)
 
-The other way, after clicked "Proceed to Checkout" and went to checkout page, choose `Pilibaba 支付（支持银联卡支付，直邮中国）` and go `PLACE ORDER:` 
+The other way, after clicked "Proceed to Checkout" and went to checkout page, choose `Pilibaba 支付（支持银联卡支付，直邮中国）` and go `PLACE ORDER:`
 
 ![](http://api.pilibaba.com/doc/media/14496505868327/14497149821422.jpg)
 
 3) Customer: Complete payment
 
-The customer would be redirected to Pilibaba's checkout page, which is in Chinese. There he could fill his name, his addresses, his post code and other information in Chinese. Finally, he can choose a China's bank or UnionPay to pay for the order. 
+The customer would be redirected to Pilibaba's checkout page, which is in Chinese. There he could fill his name, his addresses, his post code and other information in Chinese. Finally, he can choose a China's bank or UnionPay to pay for the order.
 
 ![](http://api.pilibaba.com/doc/media/14496505868327/14497151389936.jpg)
 
@@ -97,7 +98,7 @@ The customer would be redirected to Pilibaba's checkout page, which is in Chines
 
 4) Merchant: Check processing orders
 
-After the customer has paid, the shop owner can find the order in Processing status: 
+After the customer has paid, the shop owner can find the order in Processing status:
 
 ![](http://api.pilibaba.com/doc/media/14496505868327/14509369453353.jpg)
 
@@ -107,7 +108,7 @@ Then, the shop owner should ship out the product to one of [Pilibaba's warehouse
 
 6) Merchant: Update tracking number
 
-After shipped out the product, the shop owner should update the tracking number: 
+After shipped out the product, the shop owner should update the tracking number:
 
 ![](http://api.pilibaba.com/doc/media/14496505868327/14497457206929.jpg)
 
@@ -147,13 +148,13 @@ The updating process is like other plugins:
 
 2) What is express checkout?
 
-"Express checkout" means the function that customer could express checkout on the Cart page. A "Pilibaba Payment" button will be add to the right of "Proceed to Checkout" button on the Cart page: 
+"Express checkout" means the function that customer could express checkout on the Cart page. A "Pilibaba Payment" button will be add to the right of "Proceed to Checkout" button on the Cart page:
 
 ![](http://api.pilibaba.com/doc/media/14496505868327/14509372670824.jpg)
 
 3) What is production mode?
 
-In version 1.0.12, production mode is available in the settings: 
+In version 1.0.12, production mode is available in the settings:
 
 ![](http://api.pilibaba.com/doc/media/14496505868327/14510283971558.jpg)
 

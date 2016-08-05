@@ -1,7 +1,7 @@
 ###Pilibaba Kit For .NET
 [![](http://api.pilibaba.com/doc/media/14507792748580/14507793261487.jpg)](http://api.pilibaba.com/product/downloads/pilibaba-kit-for-dot-net-latest.zip)
 
-Firstly please take a quick look at the [HTTP API reference](pilipay-http-api-reference.md) to get familiar with the basic bussiness logics.
+Firstly please take a quick look at the [HTTP API reference](pilipay-http-api-reference.html) to get familiar with the basic bussiness logics.
 
 As to how to embed it into your website, there are two references:
 

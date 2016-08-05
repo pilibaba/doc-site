@@ -125,8 +125,10 @@ URL：serverUrl `in Submit Order Interface`
 
 After the callback is dealed, a "OK" should be sent back in the response:
 Example:
+```
+OK
+```
 
-    ok
 If the response is not `"OK"`, it is indicated that there are some errors. Pilibaba will try to send the request again.
 
 
@@ -134,9 +136,9 @@ If the response is not `"OK"`, it is indicated that there are some errors. Pilib
 After customer pay for error.
 
 |Field	        |Type	 |Description|
-|:------------|:--------:|:-------|
+|:------------  |:------:|:----------|
 |errorCode	    |Integer |	         |
-|errorMessage	|String  |            |
+|errorMessage	|String  |           |
 
 If your notifyType is ‘html’,pilibaba will return these parameter to a html page .
 
@@ -332,7 +334,7 @@ Response: An array of Pilibaba's warehouse address. (Encoded in JSON)
 
 The warehouse's address information contains the following fields:
 
-|Field	    |Type	|Description|
+|Field	    |Type	 |Description |
 |-----------|:------:|:-----------|
 |country	|String	|The country of the warehouse|
 |firstName	|String	|The first name of the receiver|
@@ -424,10 +426,10 @@ For example, supposing the currency type is USD and a product is priced at `1.89
 
 If your e-store is created via any of the following tools, please view the corresponding guide:
 
-. [Shopify](install-pilipay-in-shopify.md)
-. [Magento](pilibaba-kit-for-magento.md)
-. [WooCommerce in Wordpress](install-pilipay-for-woocommerce.md)
-. [Prestashop](install-pilipay-in-prestashop.md)
+. [Shopify](install-pilipay-in-shopify.html)
+. [Magento](pilibaba-kit-for-magento.html)
+. [WooCommerce in Wordpress](install-pilipay-for-woocommerce.html)
+. [Prestashop](install-pilipay-in-prestashop.html)
 
 Otherwise, a further development must be done. Please contact to your developers, and [contact to Pilibaba](http://en.pilibaba.com/contact).
 

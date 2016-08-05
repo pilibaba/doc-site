@@ -1,19 +1,37 @@
 # Install Pilipay In Prestashop
 ## 1.Install Pilipay Module In Prestashop
 
-1) Download and extract pilipay module into "modules" directory in prestashop.
+1) when you enter the background
+   1. click then modules and services button 
+   2. input 'pilipay' to search pilipay plugin( if you have search nothing， you should skip to step(2),or you should skip to step(4))
+   3. click the install button to install pilipay plguin
+![](http://api.pilibaba.com/doc/img/20151130/step1.png)
+2) Download and extract pilipay module into "modules" directory in prestashop.
 
 [![](http://api.pilibaba.com/doc/media/logos/prestashop.png)](http://addons.prestashop.com/en/22443-1-click-sell-all-in-one-solution-to-china-pilibaba.html)
 
-2) Install pilipay in the modules and services page in the admin backend:
+![](http://api.pilibaba.com/doc/img/20151130/step2.png)
 
-![](http://api.pilibaba.com/doc/media/14497194956319/14498223124017.jpg)
+3) Uplpad pilipay plugin follow the steps below
+   1. click "Add a new module"
+   2. choose pilipay.zip to upload
+   3. click "Upload this module" button
+![](http://api.pilibaba.com/doc/img/20151130/step3.png)   you should choose the option to "live"
 
-![](http://api.pilibaba.com/doc/img/20151130/1448893301328434.png)
+4) when you click the install button to install pilipay plguin， you will skip to this view ,you need to register Pilibaba to get Merchant number and Secret key follow the steps below
+   1. click the "sign  up to get started "，The page will be a popup window
+   2. input you email to register Pilibaba
+   3. input you Pilibaba's password
+   4. select currency you need 
+   5. select Warehouse you need
+![](http://api.pilibaba.com/doc/img/20151130/step4.png)   
 
-3) Configure merchant information
+5) you should choose the option to "live" and you can see your Merchant number and Secret Key
 
-![](http://api.pilibaba.com/doc/img/20151130/1448893310364424.png)
+![](http://api.pilibaba.com/doc/img/20151130/step5.png) 
+6) The last step you should do is to install carriers, you need follow the step when you register  Pilibaba account
+
+![](http://api.pilibaba.com/doc/img/20151130/step6.png) 
 
 ## 2.Pay An Order Using Pilipay
 

@@ -74,7 +74,7 @@ If the request is invalid, an error page will be shown. A detailed error message
 
     // REQUEST:
     POST https://www.pilibaba.com/pilipay/payreq
-    
+
     // with form data: (decoded)
     version:2.0.1
     merchantNO:0210000202
@@ -90,15 +90,15 @@ If the request is invalid, an error page will be shown. A detailed error message
     signType:MD5
     signMsg:06b361046890cdad4f068b2a1fad3804
     goodsList:%5B%7B%22name%22%3A%22Jeans+of+Julies%28Large+%5C%2F+Black%29%22%2C%22pictureURL%22%3A%22https%3A%5C%2F%5C%2Fcdn.shopify.com%5C%2Fs%5C%2Ffiles%5C%2F1%5C%2F1065%5C%2F1088%5C%2Fproducts%5C%2FIMG_0083.JPG%3Fv%3D1447840533%22%2C%22price%22%3A%22888%22%2C%22productURL%22%3A%22https%3A%5C%2F%5C%2Flocatar.myshopify.com%5C%2Fproducts%5C%2Fjeans-of-july%22%2C%22productId%22%3A%223668277764%22%2C%22quantity%22%3A%223%22%2C%22weight%22%3A%22650%22%2C%22attr%22%3A%22%22%2C%22category%22%3A%22%22%2C%22height%22%3A%220%22%2C%22length%22%3A%220%22%2C%22width%22%3A%220%22%7D%5D
-    
+
     // RESPONSE:
     // headers:
     HTTP/1.1 302 Found
     Location: http://www.pilibaba.com/pilipay/checkout?orderId=606
-    
+
     // body:
     // if there is an error, the error will be shown in html.
-    
+
 ## 2 Update Tracking Number Interface
 
 Corresponding to `5. push ship detail in the process diagram`
@@ -128,7 +128,7 @@ The response of this interface can be ignored.
 
     // REQUEST:
     GET https://www.pilibaba.com/pilipay/updateTrackNo?orderNo=123123&logisticsNo=87782481231231&merchantNo=201023123
-    
+
     // RESPONSE:
     // headers
     HTTP/1.1 200 OK
@@ -203,7 +203,7 @@ The response is a picture. You can show it by <img> tag on a web page.
 Example:
 
     <img src="https://www.pilibaba.com/pilipay/barCode?orderNo=XXXX&merchantNo=XXXXX" />
-    
+
 ![](http://api.pilibaba.com/static/img/bar-code.jpg)
 
 ## 5 Get Warehouse Address List Interface
@@ -282,14 +282,14 @@ For Example:
         "CNY",
         "TWD"
     ]
-    
+
 ## FAQ
 
   1.What is merchant number? How to get it?
 
 Merchant number（`merchantNO`）, is a number Pilibaba allocated to each merchant. It is used to identify merchant.
 
-[SIGN UP](http://en.pilibaba.com/regist) as a merchant. Then [LOG IN](http://en.pilibaba.com/account/login) to Pilibaba. And you can find the number in [member information page](http://en.pilibaba.com/account/myMemberInfo): 
+[SIGN UP](http://en.pilibaba.com/regist) as a merchant. Then [LOG IN](http://en.pilibaba.com/account/login) to Pilibaba. And you can find the number in [member information page](http://en.pilibaba.com/account/myMemberInfo):
 
 
 ![](http://api.pilibaba.com/doc/media/14504112333980/14506774532148.jpg)
@@ -297,7 +297,7 @@ Merchant number（`merchantNO`）, is a number Pilibaba allocated to each mercha
   2.What is `appSecret`? What is the usage of `appSecret`?
 `appSecret` is a secret key Pilibaba allocated to each merchant. It is used to impove the security of transactions.
 
-[SIGN UP](http://en.pilibaba.com/regist) as a merchant. Then [LOG IN](http://en.pilibaba.com/account/login) to Pilibaba. And you can find the appSecret (secret key) in [member information page](http://en.pilibaba.com/account/myMemberInfo): 
+[SIGN UP](http://en.pilibaba.com/regist) as a merchant. Then [LOG IN](http://en.pilibaba.com/account/login) to Pilibaba. And you can find the appSecret (secret key) in [member information page](http://en.pilibaba.com/account/myMemberInfo):
 
 ![](http://api.pilibaba.com/doc/media/14504112333980/14506779021380.jpg)
 
@@ -311,10 +311,10 @@ For example, supposing the currency type is USD and a product is priced at `1.89
 
 If your e-store is created via any of the following tools, please view the corresponding guide:
 
-. [Shopify](install-pilipay-in-shopify.md)
-. [Magento](pilibaba-kit-for-magento.md)
-. [WooCommerce in Wordpress](install-pilipay-for-woocommerce.md)
-. [Prestashop](install-pilipay-in-prestashop.md)
+. [Shopify](install-pilipay-in-shopify.html)
+. [Magento](pilibaba-kit-for-magento.html)
+. [WooCommerce in Wordpress](install-pilipay-for-woocommerce.html)
+. [Prestashop](install-pilipay-in-prestashop.html)
 
 Otherwise, a further development must be done. Please contact to your developers, and [contact to Pilibaba](http://en.pilibaba.com/contact).
 
