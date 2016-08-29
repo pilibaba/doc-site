@@ -2,7 +2,11 @@
 ## Enable Pilibaba Module in X-Cart back-office
 
 Pre-installed in X-Cart 5.2 and above.
-For X-Cart 4.X, please contact us at [developer@pilibaba.com](mailto:developer@pilibaba.com) Thanks.
+
+For X-Cart 4.X , you can download the Pilibaba Module on [http://market.x-cart.com/addons/pilibaba.html](http://market.x-cart.com/addons/pilibaba.html).
+
+Any problem , please contact us at [developer@pilibaba.com](mailto:developer@pilibaba.com) Thanks.
+
 ## Step 1 : Log in to the admin panel of X-Ccart.
 
 ## Step 2 : Find the Pilibaba module in 'Modules -> Pilibaba’ .

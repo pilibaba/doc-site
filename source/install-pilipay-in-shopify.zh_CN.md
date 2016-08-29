@@ -70,7 +70,7 @@ D. 将你的商户信息提交到APP中：
 
 将我们的Logo放到您的网站的底部后，中国的消费者将一眼就能看出来您的网站可以使用霹雳爸爸支付。这有助于提升用户体验，吸引更多的中国的消费者。 点击下图下载Logo:
 
-![](http://api.pilibaba.com/doc/img/20151125/1448440910734832.png)
+![](http://api.pilibaba.com/doc/img/pilipay.svg)
 
 ##联系我们
 

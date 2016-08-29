@@ -83,7 +83,7 @@ Placing our logo in the bottom of your site will inform customers that pilibaba 
 
 Download our logo:
 
-![](http://api.pilibaba.com/doc/img/20151125/1448440910734832.png)
+![](http://api.pilibaba.com/doc/img/pilipay.svg)
 
 ## Contact Us
 
