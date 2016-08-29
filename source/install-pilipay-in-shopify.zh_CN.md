@@ -1,7 +1,7 @@
-#在Shopify中安装霹雳爸爸（Pilibaba）支付网关
+# 在Shopify中安装霹雳爸爸（Pilibaba）支付网关
 ([English Version](install-pilipay-in-shopify.html) | 中文版 )
 
-##第一步，安装『Pilibaba Payment Gateway』APP
+## 第一步，安装『Pilibaba Payment Gateway』APP
 
 A. 获取这个APP
 
@@ -26,7 +26,7 @@ D. 将你的商户信息提交到APP中：
 
  ![](http://api.pilibaba.com/doc/img/shopify-fill-merchant-info.jpg)
 
-##第二步，在Shopify的后台中添加霹雳爸爸（Pilibaba）支付选项
+## 第二步，在Shopify的后台中添加霹雳爸爸（Pilibaba）支付选项
 
  前往: shopify admin -> settings -> payment(https://***.myshopify.com/admin/settings/payments) 拷贝并将以下 红色 的内容分别粘贴到（如下图中所示的）2、3和4字段中
 
@@ -36,7 +36,7 @@ D. 将你的商户信息提交到APP中：
 
  ![](http://api.pilibaba.com/doc/img/shopify-payment-settings.gif)
 
-##第三步，检查是否成功安装
+## 第三步，检查是否成功安装
 
  A. 检查已经安装的APP
 
@@ -60,18 +60,20 @@ D. 将你的商户信息提交到APP中：
 
 然后，作为一个消费者，就可以填写相关信息，然后选择一个常用的银行进行支付了...
 
-##第四步，最重要的事情：检查订单状态 ！
+## 第四步，最重要的事情：检查订单状态 ！
 
 当霹雳爸爸（Pilibaba）收到付款后，Shopify里面的订单状态将会从『等待（Pending）』转变为『已付款（Paid）』。此时，请将货物配送至您附近的霹雳爸爸的中转仓（Warehouse）。霹雳爸爸将会负责剩下的路程——把货物从中转仓运送到消费者手上。
 
 ![](http://api.pilibaba.com/doc/img/shopify-orders-management.png)
 
-##第五步，将我们的Logo放到您网站的底部：
+
+## 第五步，将我们的Logo放到您网站的底部：
 
 将我们的Logo放到您的网站的底部后，中国的消费者将一眼就能看出来您的网站可以使用霹雳爸爸支付。这有助于提升用户体验，吸引更多的中国的消费者。 点击下图下载Logo:
 
-![](http://api.pilibaba.com/doc/img/pilipay.svg)
+![](http://api.pilibaba.com/doc/img/20151130/badge.png)
 
-##联系我们
+
+## 联系我们
 
 如果您有任何疑问，请邮件联系我们：[developer@pilibaba.com](mailto:developer@pilibaba.com). 此外，还可以通过Skype来联系我们: developer@pilibaba.com.
