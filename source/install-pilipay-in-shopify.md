@@ -85,6 +85,11 @@ Download our logo:
 
 ![](http://api.pilibaba.com/doc/img/pilipay.svg)
 
+
+## Payment Badge 
+To help raise conversion and give clear hint to customers,place the Pilibaba payment badge to your shop footer or other places with your existing payment choices.
+![](http://api.pilibaba.com/doc/img/20151130/badge.png)
+
 ## Contact Us
 
 If you have any questions please send us an email to:[developer@pilibaba.com](mailto:developer@pilibaba.com). Or Online chat via Skype:developer@pilibaba.com.

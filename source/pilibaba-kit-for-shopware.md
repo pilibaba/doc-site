@@ -80,6 +80,10 @@ If it is a product with variants, you should also set the weight for the variant
 
 ![](http://api.pilibaba.com/doc/media/14507794522692/14507812516425.jpg)
 
+15.Payment Badge 
+To help raise conversion and give clear hint to customers,place the Pilibaba payment badge to your shop footer or other places with your existing payment choices.
+![](http://api.pilibaba.com/doc/img/20151130/badge.png)
+
 ## Contact
 
 If you have any other questions or concerns, please contact us via [email](mailto:developer@pilibaba.com) or Skype (developer@pilibaba.com).

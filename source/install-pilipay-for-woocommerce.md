@@ -160,4 +160,8 @@ In version 1.0.12, production mode is available in the settings:
 
 Production mode  means to use the production environment of Pilibaba. All orders must to be actually paid. It is enabled by default. Only when you wanna run a test and you don't want to actually pay for the test order, you can disable production mode.
 
+## Payment Badge 
+To help raise conversion and give clear hint to customers,place the Pilibaba payment badge to your shop footer or other places with your existing payment choices.
+![](http://api.pilibaba.com/doc/img/20151130/badge.png)
+
 Warning: If the production mode is not enabled, orders will NOT be actually paid!

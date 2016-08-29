@@ -104,6 +104,10 @@ After you receive an order if you go to 'Sales -> Orders', click the 'View' butt
 
 ![](http://api.pilibaba.com/doc/img/opencart/step7-3.png)
 
+## Payment Badge 
+To help raise conversion and give clear hint to customers,place the Pilibaba payment badge to your shop footer or other places with your existing payment choices.
+![](http://api.pilibaba.com/doc/img/20151130/badge.png)
+
 ##Contact
 
 If you have any other questions or concerns, please contact us via [email](mailto:developer@pilibaba.com) or Skype (developer@pilibaba.com).

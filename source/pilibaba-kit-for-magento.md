@@ -19,5 +19,8 @@ Follow the steps to install this extension.
 
 ![](http://api.pilibaba.com/doc/media/14500591517095/Configuration.png)
 
+## Payment Badge 
+  To help raise conversion and give clear hint to customers,place the Pilibaba payment badge to your shop footer or other places with your existing payment choices.
+  ![](http://api.pilibaba.com/doc/img/20151130/badge.png)
 
 Note: The "Pilipay Logo" is needed. It is an image shown on checkout page. You can choose a proper image from the "button/Checkout button" folder in the kit.
