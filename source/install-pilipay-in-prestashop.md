@@ -24,6 +24,7 @@
    3. input you Pilibaba's password
    4. select currency you need 
    5. select Warehouse you need
+   6. If you can handle the barcode in STEP 4.Important: Ship And Update Tracking Number you only need to send parcel to our nearest warehouse indeed, please set the shipping cost of China Addresses to the actual cost to local warehouse.If you have problem of adding a barcode to the parcel you can also choose to ship directly to customer's address without a barcode on.In such case,the shipping cost should be the actual cost to China.
 ![](http://api.pilibaba.com/doc/img/20151130/step4.png)   
 
 5) you should choose the option to "live" and you can see your Merchant number and Secret Key
@@ -53,3 +54,7 @@ Then, please ship the package to one of [Pilibaba's warehouses](http://en.piliba
 
 ![](http://api.pilibaba.com/doc/img/20151130/1448893341521603.png)
 
+## 5. Payment Badge 
+To help raise conversion and give clear hint to customers,place the Pilibaba payment badge to your shop footer or other places with your existing payment choices.
+![](http://api.pilibaba.com/doc/img/20151130/badge.png)
+1111
