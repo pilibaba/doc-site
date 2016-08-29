@@ -57,4 +57,3 @@ Then, please ship the package to one of [Pilibaba's warehouses](http://en.piliba
 ## 5. Payment Badge 
 To help raise conversion and give clear hint to customers,place the Pilibaba payment badge to your shop footer or other places with your existing payment choices.
 ![](http://api.pilibaba.com/doc/img/20151130/badge.png)
-1111
