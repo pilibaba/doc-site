@@ -12,7 +12,7 @@
 
 ![](http://api.pilibaba.com/doc/img/20151130/step2.png)
 
-3) Uplpad pilipay plugin follow the steps below
+3) Upload pilipay plugin follow the steps below
    1. click "Add a new module"
    2. choose pilipay.zip to upload
    3. click "Upload this module" button
