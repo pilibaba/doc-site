@@ -1,61 +1,74 @@
 # Install Pilipay In Prestashop
-## 1.Install Pilipay Module In Prestashop
 
-1) when you enter the background
-   1. click then modules and services button 
-   2. input 'pilipay' to search pilipay plugin( if you have search nothing， you should skip to step(2),or you should skip to step(4))
-   3. click the install button to install pilipay plguin
+## 1.Install Pilibaba Module in Prestashop Store
+
+### Step1
+Login to your back-office
+
+### Step2
+Click Modules and Services －> Modules and Services
+
+### Step3
+Search “PiliPay” and click Install then go to Step 4.
+
 ![](http://api.pilibaba.com/doc/img/20151130/step1.png)
-2) Download and extract pilipay module into "modules" directory in prestashop.
+
+If you can’t find “PiliPay” Module in your back-office,your current Prestashop version is not supported to upgrade automatically.   
+Don’t worry,click below button to find Pilibaba add-on page in Prestashop marketplace.  
+You can download and install our module manually. 
 
 [![](http://api.pilibaba.com/doc/media/logos/prestashop.png)](http://addons.prestashop.com/en/22443-1-click-sell-all-in-one-solution-to-china-pilibaba.html)
 
+Check our compatible versions on the right side of the page;  
+click “Download” to get PiliPay Module.  
+(If your store version is lower than 1.5.1.0, a Pilibaba module is not supposed to work.)
+
 ![](http://api.pilibaba.com/doc/img/20151130/step2.png)
 
-3) Upload pilipay plugin follow the steps below
-   1. click "Add a new module"
-   2. choose pilipay.zip to upload
-   3. click "Upload this module" button
-![](http://api.pilibaba.com/doc/img/20151130/step3.png)   you should choose the option to "live"
+Upload Pilipay plugin on your back-office  
+Click “Add a new module”  
+Choose “PiliPay.zip” from your computer and click “Upload this module”
 
-4) when you click the install button to install pilipay plguin， you will skip to this view ,you need to register Pilibaba to get Merchant number and Secret key follow the steps below
-   1. click the "sign  up to get started "，The page will be a popup window
-   2. input you email to register Pilibaba
-   3. input you Pilibaba's password
-   4. select currency you need 
-   5. select Warehouse you need
-   
-![](http://api.pilibaba.com/doc/img/20151130/step4.png)   
+![](http://api.pilibaba.com/doc/img/20151130/step3.png)   
 
-5) you should choose the option to "live" and you can see your Merchant number and Secret Key
+### Step4
+Click sign up to get started and fill the fields you will on-board creating a Pilibaba Seller account 
 
-![](http://api.pilibaba.com/doc/img/20151130/step5.png) 
-6) The last step you should do is to install carriers, you need follow the step when you register  Pilibaba account
+    “Email”     – Your login ID for a Pilibaba Seller Account
+    “Warehouse” – Where the parcels will be delivered to after an order paid by Chinese customers. You don’t need to deliver parcels to China.**If warehouses are not in your country, you can select the nearest one or ship to customers by your own logistics partner.Set a shipping choice to China and the actual cost to warehouse or customers**
+
+![](http://api.pilibaba.com/doc/img/20151130/step4.png)  
+
+### Step 5
+(System retrieves a Unique Merchant Number and Secret Key to identify your account, they are not changeable)  
+Don’t forget to swift mode from “Test” to Live to activate your Pilibaba module. 
+
+![](http://api.pilibaba.com/doc/img/20151130/step5.png)
+
+### Step 6
+Create A New Carrier - PiliExpress for the PiliPay users.  
+(So that the Prestashop system is able to calculate a correct shipping cost.)
 
 ![](http://api.pilibaba.com/doc/img/20151130/step6.png) 
-
-## 2.Pay An Order Using Pilipay
-
-Customers can choose pilibaba payment when checking out:
-
+ 
+After you complete the setting, your store checkout page will display a “Pilibaba Checkout button” as below.
 ![](http://api.pilibaba.com/doc/img/20151130/1448893319505875.png)
 
-## 3.Check Order Status
-There are differenct colors for paid and unpaid orders in the admin backend:
+## 2.Check Order Status
+Order status from Pilibaba module is the same as other payment gateways. When you have a “Paid” order, you will also receive email notification from Pilibaba mail system. You can check details of every payment in your Pilibaba Seller Account.
 
 ![](http://api.pilibaba.com/doc/img/20151130/1448893332677203.png)
 
-## 4.Important: Ship And Update Tracking Number
-Before shipping, please download the barcode, print it, and paste it at a conspicuous area of the package:
+## 3.Shipping and Barcode
+For every paid order a barcode was generated for shipping. Simply print and stick it onto the surface of the parcel and deliver to Pilibaba Warehouse you have selected. (Each parcel with a unique barcode since we scan the barcode to identify the ID info at warehouse.)
 
 ![](http://api.pilibaba.com/doc/media/14497194956319/14501658785855.jpg)
 
-Then, please ship the package to one of [Pilibaba's warehouses](http://en.pilibaba.com/addressList). And, please fill the tacking number into the order's detail:
+Input the Tracking Number and Update in system,then Chinese customers can see it in their Pilibaba Buyer Account.
 
 ![](http://api.pilibaba.com/doc/img/20151130/1448893341521603.png)
 
-If you can handle the barcode in STEP 4.Important: Ship And Update Tracking Number you only need to send parcel to our nearest warehouse indeed, please set the shipping cost of China Addresses to the actual cost to local warehouse.If you have problem of adding a barcode to the parcel you can also choose to ship directly to customer's address without a barcode on.In such case,the shipping cost should be the actual cost to China.
-
-## 5. Payment Badge 
-To help raise conversion and give clear hint to customers,place the Pilibaba payment badge to your shop footer or other places with your existing payment choices.
+## 4. Payment Badge 
+Research shows display of a Pilibaba badge at the footer of homepage, showing customers they can pay by the gateway will improve the PV by 300%.
+You can use below badge or download more [here](http://en.pilibaba.com/api).
 ![](http://api.pilibaba.com/doc/img/20151130/badge.png)
