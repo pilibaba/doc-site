@@ -38,8 +38,8 @@
 10 Set up the  merchant number and secret merchant key in the configuration tab
 
   1) Register in www.pilibaba.com you can get Merchant No and Merchant account secrect
-  2) you should choose the option on Yes
-  3) you should choose https if your system support https. otherwise you should choose http
+  2) You should choose the option Yes
+  3) You should choose https if your system supports https. otherwise you should choose http
 
 ![](http://api.pilibaba.com/doc/media/14507794522692/14507809993698.jpg)
 

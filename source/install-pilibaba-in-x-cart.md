@@ -25,7 +25,7 @@ you will be redirected to Payment settings page, click “add payment method” 
 
 You need to
 
-1. Use a email address as your login ID
+1. Use an email address as your login ID
 
 2. Set your account login Password
 

@@ -76,54 +76,36 @@ A customer go to your shop, and click the ADD TO CART button below a product.
 
 2) Customer: Checkout via Pilibaba Payment
 
-The customer go to the cart page. There are two ways to checkout via Pilibaba Payment:
+The customer goes to the cart page. There are two ways to checkout via Pilibaba Payment:
 
 One way, click the Pilibaba 支付 button right on the cart page:
 
 ![](http://api.pilibaba.com/doc/media/14496505868327/14497148700102.jpg)
 
-The other way, after clicked "Proceed to Checkout" and went to checkout page, choose `Pilibaba 支付（支持银联卡支付，直邮中国）` and go `PLACE ORDER:`
+The other way, after clicking "Proceed to Checkout" and goes to checkout page, chooses `Pilibaba 支付（支持银联卡支付，直邮中国）` to `PLACE ORDER:`
 
 ![](http://api.pilibaba.com/doc/media/14496505868327/14497149821422.jpg)
 
-3) Customer: Complete payment
-
-The customer would be redirected to Pilibaba's checkout page, which is in Chinese. There he could fill his name, his addresses, his post code and other information in Chinese. Finally, he can choose a China's bank or UnionPay to pay for the order.
-
-![](http://api.pilibaba.com/doc/media/14496505868327/14497151389936.jpg)
-
-![](http://api.pilibaba.com/doc/media/14496505868327/14497153190858.jpg)
-
-![](http://api.pilibaba.com/doc/media/14496505868327/14497153299569.jpg)
-
-4) Merchant: Check processing orders
+3) Merchant: Check processing orders
 
 After the customer has paid, the shop owner can find the order in Processing status:
 
 ![](http://api.pilibaba.com/doc/media/14496505868327/14509369453353.jpg)
 
-5) Merchant: Ship out the product to one of [Pilibaba's warehouses](http://en.pilibaba.com/addressList)
+4) Merchant: Ship out the product to one of [Pilibaba's warehouses](http://en.pilibaba.com/addressList)
 
 Then, the shop owner should ship out the product to one of [Pilibaba's warehouses.](http://en.pilibaba.com/addressList)
 
-6) Merchant: Update tracking number
+5) Merchant: Update tracking number
 
 After shipped out the product, the shop owner should update the tracking number:
 
 ![](http://api.pilibaba.com/doc/media/14496505868327/14497457206929.jpg)
 
-7) Merchant: Mark the order as completed
+6) Merchant: Mark the order as completed
 After all done, the shop owner could mark the order as completed:
 
 ![](http://api.pilibaba.com/doc/media/14496505868327/14509368606221.jpg)
-
-8) Pilibaba: Ship the product from the warehouse to the customer
-
-After the product arrived the warehouse, Pilibaba will ship the product from the ware house to China, then to the customer.
-
-9) Customer: Receive the product
-
-Finally, the customer received the product.
 
 FAQ
 

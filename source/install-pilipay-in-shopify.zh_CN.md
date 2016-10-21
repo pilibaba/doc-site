@@ -52,7 +52,7 @@ D. 将你的商户信息提交到APP中：
 
 点击『完成订单（Complete order）』按钮。如果没有登录消费者账号，则将会重定向到霹雳爸爸（Pilibaba）的登录页面：
 
-![](http://api.pilibaba.com/doc/img/pilibaba-customer-login.gif)
+![](images/pilibaba-customer-login.gif)
 
 登录后，则将会显示订单详情:
 

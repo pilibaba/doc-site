@@ -16,7 +16,7 @@ Click install (2.) and then click edit button(3.)
 
 You need to
 
-1. Use a email address as your login ID
+1. Use an email address as your login ID
 
 2. Set your account login Password
 
@@ -84,7 +84,7 @@ Add “Powered by Pilibaba badge”
 After you receive an order if you go to 'Sales -> Orders', click the 'View' button for the order and open the 'Pilibaba' tab you'll see a section where you can update the tracking number, as well as view more information about the order.
 ## Update Tracking Number And Print out barcode
 
-1. You can see "TOTAL ORDERS" when you entry the Background system ,Click "View more" to see more orders.
+1. You can see "TOTAL ORDERS" when you enter the back office ,Click "View more" to see more orders.
 
 2. Click "view" button to see order detail.
 

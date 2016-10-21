@@ -57,10 +57,9 @@ Make an order. Then see whether there is a Pilibaba Checkout option in your paym
 
 ![](http://api.pilibaba.com/doc/img/shopify-payment-options.gif)
 
-Click “Complete order” button to redirect to Pilibaba login page, if
-you've not logged in as a customer:
+Click “Complete order” button to redirect to Pilibaba login page, if you've not logged in as a customer:
 
-![](http://api.pilibaba.com/doc/img/pilibaba-customer-login.gif)
+![](images/pilibaba-customer-login.gif)
 
 After logged in, the order's detail will be shown:
 
@@ -77,18 +76,12 @@ Check Payment Status -- once Pilibaba received payment, your order status will b
 With regarding of the shipment, all you need to do is to ship the parcels to one of our designated warehouse in your home-country. Pilibaba will
 do the rest things. For example:international shipment, customs clearance and last mile delivery.To find our warehouses in your country, please    visit:http://en.pilibaba.com/addressList
 
-## Step 5: Place our logo in the bottom of your site
-
-Placing our logo in the bottom of your site will inform customers that pilibaba is available, which could improve user experience.
-
-Download our logo:
-
-![](http://api.pilibaba.com/doc/img/pilipay.svg)
-
-
 ## Payment Badge 
 To help raise conversion and give clear hint to customers,place the Pilibaba payment badge to your shop footer or other places with your existing payment choices.
+
 ![](http://api.pilibaba.com/doc/img/20151130/badge.png)
+
+![](http://api.pilibaba.com/doc/img/pilipay.svg)
 
 ## Contact Us
 
