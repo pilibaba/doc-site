@@ -144,67 +144,119 @@ If your notifyType is ‘html’,pilibaba will return these parameter to a html 
 
 If your notifyType is ‘json’,pilibaba will return these parameter to the merchant system.And now you can redirect the page yourself.
 
-###1.6 Error Code
+### 1.6 Error Code
 
-|Error Code	|Request parameters	|Error Messages|
-|:------------|:--------:|:-------|
-|20001	|version	            |version is null|
-|20002	|version	            |version value is error|
-|20003	|merchantNo         	|version value is error|
-|20004	|merchantNo	            |merchantNo not exists|
-|20005	|currencyType	        |currencyType is null|
-|20006	|currencyType	        |currencyType not exists|
-|20007	|orderNo	            |orderNo is null|
-|20008	|orderNo	            |orderNo length is more than 50|
-|20009	|orderAmount	        |orderAmount is null|
-|20010	|orderAmount	        |orderAmount length is more than 50|
-|20011	|orderAmount	        |orderAmount is not a integer value|
-|20012	|orderTime	            |orderTime is null|
-|20013	|orderTime	            |orderTimeformat error,for example:2015-08-18 16:08:39|
-|20014	|pageUrl	            |pageUrl is null|
-|20015	|pageUrl	            |pageUrl length is more than 255|
-|20016	|serverUrl	            |serverUrl is null|
-|20017	|serverUrl	            |serverUrllength is more than 255|
-|20018	|redirectUrl	        |redirectUrlis null|
-|20019	|redirectUrl	        |redirectUrllength is more than 255|
-|20020	|notifyType         	|notifyTypeis null|
-|20021	|notifyType	            |notifyTypeis not “html” or “json”|
-|20022	|shipper	            |shipper is null|
-|20023	|shipper	            |shipper is null|
-|20024	|shipper	            |shipperis not a integer value|
-|20025	|tax	                |tax is null|
-|20026	|tax	                |tax length is more than 20|
-|20027	|tax	                |tax is not a integer value|
-|20028	|signType	            |signType is null|
-|20029	|signType	            |signType is not equals "MD5"|
-|20030	|signMsg	            |signMsg is null|
-|20031	|signMsg	            |signMsg length is more than 50|
-|20032	|goodsList	            |goodsList is null|
-|20040	|name	                |goods name is null|
-|20041	|name	                |goods name length is more than 255|
-|20042	|pictureUrl	            |goods pictureUrl is null|
-|20043	|pictureUrl	            |goods pictureUrl length is more than 255|
-|20044	|price	                |goods price is null|
-|20045	|price	                |goods price length is more than 20|
-|20046	|price	                |goods price is not a integer value|
-|20047	|productUrl	            |goods productUrl is null|
-|20048	|productUrl         	|goods productUrl length is more than 255|
-|20049	|productId	            |goods productId is null|
-|20050	|productId	            |goods productId length is more than 50|
-|20051	|quantity	            |goods quantity is null|
-|20052	|quantity	            |goods quantity length is more than 20|
-|20053	|quantity	            |goods quantity is not a integer value|
-|20054	|weight	                |goods weight is null|
-|20055	|weight	                |goods weight length is more than 10|
-|20056	|quantity	            |goods weight is not a integer value|
-|20057	|deductibleAmount	    |deductibleAmount length is more than 20|
-|20058	|deductibleAmount	    |deductibleAmount is not a integer value|
-|10001	|	                    |System error|
-|10000	|	                    |success|
-|10002	|	                    |currency rate not exists|
-|10003	|	                    |order amount more than 1000CNY|
-|10004	|	                    |order exists|
-|10005	|	                    |sign error|
+|Error Code	|Error Messages|
+|:----------|:-------------|
+| 800010001 | merchantNo can not be null |
+| 800010002 | merchantNo does not exist |  
+| 800020001 | merchantNo Key can not be null |  
+| 800020002 | merchantNo Key does not exist |  
+| 800030001 | currencyType can not be null |  
+| 800030002 | currencyType does not exist | 
+| 800040001 | orderNo can not be null |
+| 800040002 | orderNo length is more than 50 characters |
+| 800050001 | orderAmount can not be null |
+| 800050002 | orderAmount length is more than 50 characters |
+| 800050003 | orderAmount is not a numeric |
+| 800060001 | orderTime can not be null |
+| 800060002 | orderTime is not a correct format |
+| 800070001 | sendTime can not be null |
+| 800070002 | sendTime is not a correct format |
+| 800080001 | pageURL can not be null |
+| 800080002 | pageURL length is more than 255 characters |
+| 800090001 | serverURL can not be null |
+| 800090002 | serverURL length is more than 255 characters |
+| 800100001 | shipper can not be null |
+| 800100002 | shipper length is more than 20 characters |
+| 800100003 | shipper is not a numeric |
+| 800110001 | tax can not be null |
+| 800110002 | tax length is more than 20 characters |
+| 800110003 | tax is not a numeric |
+| 800120001 | signType not MD5 format |
+| 800130001 | signMsg can not be null |
+| 800130002 | signMsg length is more than 50 characters |
+| 800140001 | goodsList can not be null |
+| 600010001 | product name can not be null |
+| 600010002 | product name length is more than 255 characters |
+| 600020001 | product pictureUrl can not be null |
+| 600020002 | product pictureUrl length is more than 255 characters |
+| 600030001 | product price can not be null |
+| 600030002 | product price length is more than 20 characters |
+| 600030003 | product price is not numeric |
+| 600040001 | productUrl can not be null |
+| 600040002 | productUrl length is more than 255 characters |
+| 600050001 | productId can not be null |
+| 600050002 | productId length is more than 50 characters |
+| 600060001 | quantity can not be null |
+| 600060002 | quantity length is more than 20 characters |
+| 600060003 | quantity is not numeric |
+| 600070001 | weight can not be null |
+| 600070002 | weight length is more than 10 characters |
+| 600070003 | weight is not numeric |
+| 900010001 | Signature error |
+| 900020001 | Payment error |
+| 900030001 | Logistics error |
+| 999999999 | System error |
+| 20001 | version is null |
+| 20002 | version value is error |
+| 20003 | merchantNo is null |
+| 20004 | merchantNo not exist |
+| 20005 | currencyType is null |
+| 20006 | currencyType not exist |
+| 20007 | orderNo is null |
+| 20008 | orderNo length is more than 50 characters |
+| 20009 | orderAmount is null |
+| 20010 | orderAmount length is more than 50 characters |
+| 20011 | orderAmount is not a integer value |
+| 20012 | orderTime is null |
+| 20013 | orderTime format error, for example:2015-08-18 16:08:39 |
+| 20014 | pageUrl is null |
+| 20015 | pageUrl length is more than 255 characters |
+| 20016 | serverUrl is null |
+| 20017 | serverUrl length is more than 255 characters |
+| 20018 | redirectUrl is null |
+| 20019 | redirectUrl length is more than 255 characters |
+| 20020 | notifyType is null |
+| 20021 | notifyType is not ＾html￣ or ＾json￣ |
+| 20022 | shipper is null |
+| 20023 | shipper length is more than 20 characters |
+| 20024 | shipper is not a integer value |
+| 20025 | tax is null |
+| 20026 | tax length is more than 20 characters |
+| 20027 | tax is not a integer value |
+| 20028 | signType is null |
+| 20029 | signType is not ＾MD5￣ format |
+| 20030 | signMsg is null |
+| 20031 | signMsg length is more than 50 characters |
+| 20032 | goodsList is null |
+| 20040 | product name is null |
+| 20041 | product name length is more than 255 characters |
+| 20042 | product pictureUrl is null |
+| 20043 | product pictureUrl length is more than 255 characters |
+| 20044 | price is null |
+| 20045 | price length is more than 20 characters |
+| 20046 | price is not a integer value |
+| 20047 | productUrl is null |
+| 20048 | productUrl length is more than 255 characters |
+| 20049 | productId is null |
+| 20050 | productId length is more than 50 characters |
+| 20051 | quantity is null |
+| 20052 | quantity length is more than 20 characters |
+| 20053 | quantity is not a integer value |
+| 20054 | weight is null |
+| 20055 | weight length is more than 10 characters |
+| 20056 | weight is not a integer value |
+| 10000 | success |
+| 10001 | System error |
+| 10002 | currency rate not exist |
+| 10003 | order amount more than 2000CNY |
+| 10004 | order exist |
+| 10005 | sign error |
+| 20057 | deductibleAmount length is more than 20 characters |
+| 20058 | deductibleAmount is not a integer value |
+| 10006 | order not exist |
+| 10007 | order amount more than 2000CNY |
 
 ## 2 Update Tracking Number Interface
 
